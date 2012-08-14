@@ -1,0 +1,41 @@
+# Leacock's Branding - Compass Plugin
+
+This plugin adds various Leacock's branding to [Compass][].
+
+## Install
+
+	gem install compass-leacocks
+
+## Adding the Cornell plugin to an existing project
+
+Add the following to your `compass.rb`/`config.rb` config file:
+
+	# Require any additional compass plugins here.
+	require 'leacocks'
+
+Then make sure you have imported the variables library to your core `.sass` or `.scss` file with:
+
+	@import "leacocks/variables"
+
+Check out the [wiki][compass-leacocks-wiki] for variables, styles, and more information.
+
+## Credits
+
+[Parker Moore][] created this plugin to aid in his development work for [Leacock's Online Arts Magazine][leacocks].
+
+Many thanks to [Chris Eppstein][] for creating Compass, and [Hampton Catlin][] for creating [Sass][]. 
+
+And many thanks to Chris Eppstein again for creating `compass-960-plugin`, which made the creation of this plugin far easier. A great blueprint for 
+
+## License
+
+Licensed under the MIT License. See [LICENSE.mkdn][] for details.
+
+[Compass]: http://compass-style.org/
+[compass-leacocks-wiki]: https://github.com/Leacocks/compass-leacocks/wiki
+[LICENSE.mkdn]: https://github.com/Leacocks/compass-leacocks/blob/master/LICENSE.mkdn
+[Chris Eppstein]: http://chriseppstein.github.com/
+[Hampton Catlin]: http://hamptoncatlin.com/
+[Sass]: http://sass-lang.com/
+[leacocks]: http://leacocks.com/
+[Parker Moore]: http://www.parkermoore.de/
