@@ -11,3 +11,69 @@
 // @link          http://leacocks.com Leacock's Online Arts Magazine
 // @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
 // 
+
+$LCRed: #d90000;
+
+$LCHeaderBorderColor: $LCRed;
+$LCHeaderHeight: 55px;
+
+@mixin leacocks-header {
+  #header {
+  	border-bottom: $LCHeaderBorderColor 5px solid;
+  	padding: 0;
+  	margin: 0;
+  	font-weight: normal;
+  	a {
+  		display: inline-block;
+  		background-color: #eee;
+  		color: #000;
+  		/*width: 215px;
+  		height: 75px;*/
+  		padding: 0px;
+  		margin: 0px 5px 0px 0px;
+  		&:hover {
+  			text-decoration: underline;
+  		}
+  		img {
+  			vertical-align: middle;
+  			margin: 0;
+  			padding: 0;
+  		}
+  	}
+  	header {
+  		display: inline-block;
+  		margin: 0px;
+  		padding: 0px;
+  		vertical-align: bottom;
+  		text-transform: uppercase;
+  		font-size: 48px;
+  		font-weight: normal;
+  		width: 233px;
+      $LCHeaderHeight: 55px;
+  		height: $LCHeaderHeight;
+  		&:hover{ cursor: pointer; }
+  		a {
+  			background-color: #eee;
+  			color: #000;
+  			height: $LCHeaderHeight;
+  		}
+  	}
+  	nav {
+  		display: inline-block;
+  		text-align: right;
+  		width: 487px;
+  		vertical-align: bottom;
+  		font-family: "Arvo", "Courier New", Courier, serif;
+  		font-size: 25px;
+  		font-weight: normal;
+  		text-transform: uppercase;
+  		a {
+  			display: inline-block;
+  			margin-left: 10px;
+  			margin-bottom: 2px;
+  			margin-right: 0px;
+  			padding-right: 0px;
+  		}
+  	}
+  }
+}
