@@ -11,3 +11,94 @@
 // @link          http://leacocks.com Leacock's Online Arts Magazine
 // @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
 //
+
+/* "Arvo" taken from Google Webfonts - reduced to bare code for our purposes */
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Arvo'), url('http://themes.googleusercontent.com/font?kit=BM-nqL-L5PgjKPDNaleWB_esZW2xOQ-xsNqO47m55DA') format('woff');
+}
+@font-face {
+  font-family: 'Arvo';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Arvo Italic'), local('Arvo-Italic'), url('http://themes.googleusercontent.com/font?kit=ui4L3MaHUbARhH-m5bxHRevvDin1pK8aKteLpeZ5c0A') format('woff');
+}
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Arvo Bold'), local('Arvo-Bold'), url('http://themes.googleusercontent.com/font?kit=_OKjjqM9ed2qvTR07QdjWwLUuEpTyoUstqEm5AMlJo4') format('woff');
+}
+
+/* "Merriweather" taken from Google Webfonts - reduced to bare code for our purposes */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url('http://themes.googleusercontent.com/font?kit=ZvcMqxEwPfh2qDWBPxn6nhAPw1J91axKNXP_-QX9CC8') format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Merriweather Light'), local('Merriweather-Light'), url('http://themes.googleusercontent.com/font?kit=ZvcMqxEwPfh2qDWBPxn6nmB7wJ9CoPCp9n30ZBThZ1I') format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Merriweather'), url('http://themes.googleusercontent.com/font?kit=RFda8w1V0eDZheqfcyQ4EKRDOzjiPcYnFooOUGCOsRk') format('woff');
+}
+
+/* "Crimson Text" taken from Google Webfonts - reduced to bare code for our purposes */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crimson Text Italic'), local('CrimsonText-Italic'), url('http://themes.googleusercontent.com/font?kit=a5QZnvmn5amyNI-t2BMkWL52ooqJRs02xO3mONBoqeI') format('woff');
+}
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Crimson Text Bold Italic'), local('CrimsonText-BoldItalic'), url('http://themes.googleusercontent.com/font?kit=4j4TR-EfnvCt43InYpUNDLz7bF_NE717IFsea40dLmU') format('woff');
+}
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Crimson Text'), local('CrimsonText-Roman'), url('http://themes.googleusercontent.com/font?kit=3IFMwfRa07i-auYR-B-zNaRDOzjiPcYnFooOUGCOsRk') format('woff');
+}
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Crimson Text Bold'), local('CrimsonText-Bold'), url('http://themes.googleusercontent.com/font?kit=rEy5tGc5HdXy56Xvd4f3IxAPw1J91axKNXP_-QX9CC8') format('woff');
+}
+
+
+header {
+	display: block;
+	font-family: "Arvo", "Courier New", Courier, serif;
+	font-size: 46px;
+	font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 { font-family: "Arvo", "Courier New", Courier, serif; }
+body {
+	font-family: "Merriweather", Georgia, Times, serif;
+	font-size: 16px;
+	em {
+		font-family: 'Crimson Text', Georgia, Times, serif;
+		font-size: 1.2em;
+	}
+	strong {
+		font-family: 'Crimson Text', Georgia, Times, serif;
+		font-size: 1.15em;
+	}
+}
+p {
+	line-height: 1.4em;
+}
+blockquote { font-family: "Merriweather", Georgia, Times, serif; color: #282828; background-color: #ddd; padding: 10px; font-size: 14px; }
